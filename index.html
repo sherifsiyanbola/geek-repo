@@ -1,13 +1,65 @@
-<!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8" />
-    <title>Page Title</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
+    <head>
+        <style>
+            body {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+            }
+            .email-body {
+                height: 100%;
+                width: 100%;
+                background-color: #eee;
+            }
+            header {
+                height: 10%;
+                color: white;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .email-content {
+                height: 80%;
+                padding: 0px;
+		display:inline;
+            }
+
+            footer {
+                background-color: rgba(21, 50, 58, 0.9);
+                color: white;
+                padding: 10px;
+                text-align: center;
+                bottom: 0;
+                height: 10%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+
+        </style>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
 <body>
-    <h1>I am the header</h1>
-    <p>New changes</p>
-    <h3>Git is crazy</h3>
+
+    <div class="email-body">
+        <header>
+        </header>
+        <div class="email-content">
+            <h1>This is Geek-Repo</h1>
+            <img src="https://github.githubassets.com/images/modules/profile/profile-first-issue-dark.svg">
+            <p>New changes</p>
+            <h3>Git is crazy</h3>
+        </div>
+        <footer>
+            <small>Git And Github.</small>
+        </footer>
+    </div>
+
 </body>
+
 </html>
